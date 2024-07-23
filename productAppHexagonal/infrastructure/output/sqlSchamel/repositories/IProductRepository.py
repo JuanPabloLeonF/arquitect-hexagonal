@@ -1,6 +1,6 @@
 from flask import jsonify
 from entities import ProductEntity
-from mappers import IProductEntityMapper
+from infrastructure.output.sqlSchamel.mappers import IProductEntityMapper
 import json
 from abc import ABC, abstractmethod
 
